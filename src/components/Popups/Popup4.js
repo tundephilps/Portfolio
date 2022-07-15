@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { BsGithub } from "react-icons/bs";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 import page4 from "../images/page4.png"
@@ -28,17 +29,18 @@ const Popup4 = () => {
         </div>
 <div className="pp-body">
     <div className='description'>
-<p>to uplift the design of their projects in the shortest time span. 
-    The code is well commented and a pleasure to work with
-    Lucian amazes me with the creativity and variations he introduces to 
-    every template of his. He not only makes them look professional  </p>
+<p>A complex Landing page, with Multiple design patterns and reuseable templates and components </p>
     </div>
     <div className='general-info'>
 <ul>
     <li>Created - <span>4 Dec 2020</span></li>
     <li>Technologies used - <span>HTML, Css, Javascript, React </span></li>
     <li>Role - <span>Front End</span></li>
-    <li>View Online - <span><a href='https://single-page-app3-psi.vercel.app/'>https://single-page-app3-psi.vercel.app/</a></span></li>
+    <li>View Online - <span><a href='https://single-page-app3-psi.vercel.app/'>https://single-page-app3-psi.vercel.app/</a></span>
+    <div className='=social-links'>
+       Source Code -  <a href='https://github.com/tundephilps/SinglePageApp3' id='icons' alt="View Code"><BsGithub /></a>
+    </div>
+    </li>
 </ul>
     </div>
 </div>

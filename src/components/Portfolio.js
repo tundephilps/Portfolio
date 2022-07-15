@@ -7,7 +7,8 @@ import page6 from "./images/page6.png"
 import page3 from "./images/page3.png"
 import page4 from "./images/page4.png"
 import page5 from "./images/page5.png"
-
+import page7 from "./images/page7.png"
+import page8 from "./images/page8.png"
 
 //import port2 from "./images/port2.jpg";
 //import port3 from "./images/port3.jpg";
@@ -62,6 +63,57 @@ const Portfolio = () => {
 
                   <div className='portfolio-item'>
                     <div className='portfolio-item-thumbnail'>
+        <img src={page7} alt="port" />
+                    </div>
+                    <h3 className='portfolio-item-title'>Movie WebApp</h3>
+                <button type='button' className='btn view-project-btn' href onClick={() => {navigate("/Popup7");}}>View project</button>
+                <div className='portfolio-item-details'>
+                    <div className='description'>
+                    <p>A Cinema Trailer and Movie Review WebApp, built with complex Algorithms and Real Time movie data of the latest Hollywood
+        Movies and TV series </p>
+                    </div>
+                    <div className='general-info'>
+                        <ul>
+                            <li>Created - <span>11 April 2022</span></li>
+                            <li>Technologies used - <span>Html, Css, Javascript, React</span></li>
+                            <li>Role - <span>Front End</span></li>
+                            <li>View Online - <span><a href='/#' target={'_blank'}>https://github.com/tundephilps/CInema-App</a></span></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                  </div>
+            
+
+<div className='portfolio-item'>
+                    <div className='portfolio-item-thumbnail'>
+        <img src={page8} alt="port" />
+                    </div>
+                    <h3 className='portfolio-item-title'>University Website </h3>
+                <button type='button' className='btn view-project-btn' href onClick={() => {navigate("/Popup8");}}>View project</button>
+                <div className='portfolio-item-details'>
+                    <div className='description'>
+                    <p>A university web app that includes a Students Forum,
+         Price and Checkout Page for payment of tution, 
+         a staff management software that edits and deletes records of staffs,
+         a Quiz App., Accoridion for FAQ and Login page... All in one. </p>
+                    </div>
+                    <div className='general-info'>
+                        <ul>
+                            <li>Created - <span>17 June 2022</span></li>
+                            <li>Technologies used - <span>Html, Css, Javascript, React, Redux Toolkit</span></li>
+                            <li>Role - <span>Front End</span></li>
+                            <li>View Online - <span><a href='/#' target={'_blank'}>https://github.com/tundephilps/CInema-App</a></span></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                  </div>
+            
+            
+            
+                  <div className='portfolio-item'>
+                    <div className='portfolio-item-thumbnail'>
         <img src={page2} alt="port" />
                     </div>
                     <h3 className='portfolio-item-title'>Golf Course WebPage</h3>
@@ -86,6 +138,8 @@ const Portfolio = () => {
                     </div>
                 </div>
                   </div>
+            
+            
                   <div className='portfolio-item'>
                     <div className='portfolio-item-thumbnail'>
         <img src={page3} alt="port" />
@@ -112,6 +166,9 @@ const Portfolio = () => {
                     </div>
                 </div>
                   </div>
+            
+            
+            
                   <div className='portfolio-item'>
                     <div className='portfolio-item-thumbnail'>
         <img src={page4} alt="port" />

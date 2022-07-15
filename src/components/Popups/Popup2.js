@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { BsGithub } from "react-icons/bs";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 import page2 from "../images/page2.png"
@@ -37,7 +38,11 @@ const Popup2 = () => {
         <li>Created - <span>4 Dec 2020</span></li>
         <li>Technologies used - <span>HTML, Sass, Javascript, React </span></li>
         <li>Role - <span>Front End</span></li>
-        <li>View Online - <span><a href='https://black-golf-tundephilps.vercel.app/'>https://black-golf-tundephilps.vercel.app/</a></span></li>
+        <li>View Online - <span><a href='https://black-golf-tundephilps.vercel.app/'>https://black-golf-tundephilps.vercel.app/</a></span>
+        <div className='=social-links'>
+       Source Code -  <a href='https://github.com/tundephilps/Black-Golf' id='icons' alt="View Code"><BsGithub /></a>
+    </div>
+        </li>
     </ul>
         </div>
     </div>

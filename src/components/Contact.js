@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { TiSocialFacebook,TiSocialInstagram, TiSocialTwitter, TiSocialYoutube } from "react-icons/ti";
+import { BsGithub } from "react-icons/bs";
 import { useNavigate } from 'react-router';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -94,10 +95,11 @@ const Contact = () => {
     </div><div className='contact-info-item'>
         <h3>Follow Me</h3>
         <div className='=social-links'>
-            <a href='/##' id='icons'><TiSocialFacebook /></a>
+            <a href='https://facebook.com/tundephilps' id='icons'><TiSocialFacebook /></a>
             <a href='/##' id='icons'><TiSocialInstagram /></a>
             <a href='/##' id='icons'><TiSocialTwitter /></a>
             <a href='/##' id='icons'><TiSocialYoutube /></a>
+            <a href='https://github.com/tundephilps' id='icons'><BsGithub /></a>
             
         </div>
             <p></p>

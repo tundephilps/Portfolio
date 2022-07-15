@@ -3,14 +3,10 @@ import "./components/Styles.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Homepage from './components/Homepage';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+//import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Popup1 from './components/Popups/Popup1';
-import Popup2 from './components/Popups/Popup2';
-import Popup3 from './components/Popups/Popup3';
-import Popup4 from './components/Popups/Popup4';
-import Popup5 from './components/Popups/Popup5';
-import Popup6 from './components/Popups/Popup6';
+import Projects from './components/Projects';
+import Popup from './components/Popups/Popup';
 //import Header from './components/Header';
 
 
@@ -20,15 +16,10 @@ function App() {
                 <Routes>
                 <Route path="/" element={<Homepage />} />
                 <Route path="/About" element={<About />} />
-                <Route path="/Portfolio" element={<Portfolio />} />
+                <Route path="/Portfolio" element={<Projects />} />
                 <Route path="/Contact" element={<Contact />} />
-                <Route path="/Popup1" element={<Popup1 />} />
-                <Route path="/Popup2" element={<Popup2 />} />
-                <Route path="/Popup3" element={<Popup3 />} />
-                <Route path="/Popup4" element={<Popup4 />} />
-                <Route path="/Popup5" element={<Popup5 />} />
-                <Route path="/Popup6" element={<Popup6 />} />
                 
+                <Route path="/Popup/:id" element={<Popup />} />
             </Routes>
             </Router>
           

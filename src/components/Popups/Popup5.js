@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { BsGithub } from "react-icons/bs";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 import page5 from "../images/page5.png"
@@ -38,7 +39,11 @@ const Popup5 = () => {
     <li>Created - <span>4 Dec 2020</span></li>
     <li>Technologies used - <span>HTML, Css, Javascript, React </span></li>
     <li>Role - <span>Front End</span></li>
-    <li>View Online - <span><a href='https://single-page-app1-three.vercel.app/'>https://single-page-app1-three.vercel.app/</a></span></li>
+    <li>View Online - <span><a href='https://single-page-app1-three.vercel.app/'>https://single-page-app1-three.vercel.app/</a></span>
+    <div className='=social-links'>
+       Source Code -  <a href='https://github.com/tundephilps/MultiPage-App1' id='icons' alt="View Code"><BsGithub /></a>
+    </div>
+    </li>
 </ul>
     </div>
 </div>

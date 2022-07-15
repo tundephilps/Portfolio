@@ -27,7 +27,7 @@ const About = () => {
 </div>
 </div>
 <div className='about-text'>
-    <p>I am a meticulous Front-End React.js Developer from Nigeria Currently based in NewCastle UK with over 2years of front end experience,
+    <p>I am a meticulous Front-End React.js Developer from Nigeria Currently based in Lagos with over 2years of front end experience,
          and a passion for coding, Web Development and a firm believer in client satisfaction coupled with optimal user’s experience.
          Am open to any avaliable remote oppourtunities,
          In return I would offer my full commitment and be a pleasant, friendly addition to your team. 
@@ -70,7 +70,7 @@ const About = () => {
     </div>
     <div className='timeline-item'>
 <span className='date'>Currently</span>
-<h4>Dev Ops Engineering - <span> Lamar Tech Insititute, Texas USA </span> </h4>
+<h4>Dev Ops Engineering - <span> Lamar Cloud Submitt, Texas USA </span> </h4>
 <p> 
     Advanced training on Linux Administration, AWS, DevOps and Networking.
 </p>
@@ -83,16 +83,9 @@ const About = () => {
 
 <div className='tab-content active' id="experience">
     <div className='timeline'>
+        
         <div className='timeline-item'>
             <span className='date'>Currently</span>
-            <h4>Front End Developer - <span>Zoopla Real Estate Acquisition Agency, NewCastle</span></h4>
-            <p>
-                Design of the Users Interface of the WebApp Zoopla.com while giving the site weekly updates on the Back-End
-                coupled with Database records of the clients.
-                 </p>
-        </div>
-        <div className='timeline-item'>
-            <span className='date'>2020 - 2022</span>
             <h4>Web developer - <span>Freelance (Fiverr, UpWork)</span></h4>
             <p>To build and uplift the Websites of clients projects in the shortest time span, 
                  Using Web Technologies to provide not only cool landing pages but also makes
