@@ -28,7 +28,11 @@ class Header extends Component {
       return (<>
     
 
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-expand-lg fixed-top"
+          data-aos='fade-down'
+          data-aos-duration='2000'
+          data-aos-delay='900'
+        >
           <div className="container">
             <a className="navbar-brand text-info" href='/' id='sign'>My Portfolio</a>
     <button className="navbar-toggler border border-info text-info"

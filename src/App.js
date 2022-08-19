@@ -10,7 +10,24 @@ import Popup from './components/Popups/Popup';
 //import Header from './components/Header';
 
 
+//import aos (animate on scroll)
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+
 function App() {
+
+    useEffect(() => {
+        Aos.init({
+          duration: 2000,
+          delay: 200,
+        }
+        
+        );
+      });
+  
+
     return (<div>
   <Router>
                 <Routes>

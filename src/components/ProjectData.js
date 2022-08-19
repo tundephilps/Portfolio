@@ -37,18 +37,22 @@ const ProjectData = [
     
         
     },
-    {
-    id: "4",
-    date: "March 7 2021",
-    image: "../images/page2.png",
-    title: "Golf Course Project",
-    Link: "https://black-golf-tundephilps.vercel.app/",
-    tech: "HTML, CSS, Javascript, React",
-    sourcecode: "https://github.com/tundephilps/Black-Golf",
-    description: "A Golf Course themed Web page built for Black Minorities, A Beautiful landing page that took me a lot of time and effort to design...",
 
     
-    },
+    {
+        id: "4",
+        date: "March 7 2021",
+        image: "../images/Blog.png",
+        title: "Blog Project",
+        Link: "https://blog-tundephilps.vercel.app/",
+        tech: "HTML, CSS, Javascript, Axios, React, Sanity,io",
+        sourcecode: "https://github.com/tundephilps/Blog",
+        description: "A Blog App integrated with Graph QL/ Apollo Client and a backend service called Sanity.io for posting articles in real time, a news app with data fetched from a news api which unfortunatly doesnt display in production because its a free version but displays fully well on localhost, still at the building phase ... Still work in progress Visit ",
+    
+        
+        },
+    
+    
     {
         id: "5",
         date: "Sept 23 2021",
@@ -62,30 +66,34 @@ const ProjectData = [
       
         
     },
+    
+
     {
         id: "6",
         date: "Feb 23 2021",
-        image: "../images/page5.png",
-        title: "App Landing Page",
-        Link: "https://single-page-app3-psi.vercel.app/",
+        image: "../images/virtual.png",
+        title: "Virtual Reality",
+        Link: "https://tailwind-vr.vercel.app/",
         tech: "HTML, CSS, Javascript, React",
-        sourcecode: "https://github.com/tundephilps/SinglePageApp3",
-        description: "A complex Landing page, with Multiple design patterns and reuseable templates and components",
+        sourcecode: "https://github.com/tundephilps/TailwindVR",
+        description: "A Virtual reality page using tailwind CSS and implementing Three.js for amazing 3D visual effects, was just trying my hand on tailwind css..",
     
           
     },
+
     {
         id: "7",
         date: "Dec 23 2021",
-        image: "../images/page4.png",
-        title: "Business Page",
-        Link: "https://single-page-app1-three.vercel.app/",
-        tech: "HTML, CSS, Javascript, React",
-        sourcecode: "https://github.com/tundephilps/MultiPage-App1",
-        description: "to uplift the design of their projects in the shortest time span.The code is well commented and a pleasure to work with Lucian amazes me with the creativity and variations he introduces to every template of his. He not only makes them look professional ",
+        image: "../images/verse.png",
+        title: "Web3 page",
+        Link: "https://web3-khaki.vercel.app/",
+        tech: "HTML, Tailwind CSS, Javascript, React",
+        sourcecode: "https://github.com/tundephilps/Web3",
+        description: "My Tailwind css knowledge was perfected with this one... Its a Web3 designed theme page all done with tailwind css and a video with a pause button giving it some nice effects. ",
     
           
     },
+
     {
         id: "8",
         date: " 23 2021",
@@ -98,7 +106,31 @@ const ProjectData = [
         
     },
    
+    {
+        id: "9",
+        date: "March 7 2021",
+        image: "../images/page2.png",
+        title: "Golf Course Project",
+        Link: "https://black-golf-tundephilps.vercel.app/",
+        tech: "HTML, CSS, Javascript, React",
+        sourcecode: "https://github.com/tundephilps/Black-Golf",
+        description: "A Golf Course themed Web page built for Black Minorities, A Beautiful landing page that took me a lot of time and effort to design...",
+    
+        
+        },
 
+        {
+            id: "10",
+            date: "Dec 23 2021",
+            image: "../images/page4.png",
+            title: "Business Page",
+            Link: "https://single-page-app1-three.vercel.app/",
+            tech: "HTML, CSS, Javascript, React",
+            sourcecode: "https://github.com/tundephilps/MultiPage-App1",
+            description: "to uplift the design of their projects in the shortest time span.The code is well commented and a pleasure to work with Lucian amazes me with the creativity and variations he introduces to every template of his. He not only makes them look professional ",
+        
+              
+        },
     ]
       
     export default ProjectData;

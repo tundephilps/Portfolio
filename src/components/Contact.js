@@ -57,7 +57,9 @@ const Contact = () => {
 
     </div>
 <div className='row'>
-    <div className='contact-form'>
+    <div className='contact-form' 
+    //ease-in-out-quad
+    data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-out-quad" data-aos-duration="600">
         <form  ref={form} onSubmit={sendEmail}>
             <div className='row'>
                 <div className='input-group'>
@@ -84,7 +86,11 @@ const Contact = () => {
             </div>
         </form>
     </div>
-<div className='contact-info'>
+<div className='contact-info'
+ data-aos='fade-down'
+ data-aos-duration='2000'
+ data-aos-delay='1200'
+>
     <div className='contact-info-item'>
         <h3>Email</h3>
             <p>tundephilps@gmail.com</p>
@@ -94,12 +100,31 @@ const Contact = () => {
             <p>+44*********</p>
     </div><div className='contact-info-item'>
         <h3>Follow Me</h3>
-        <div className='=social-links'>
+        <div className='=social-links'
+         
+        >
             <a href='https://facebook.com/tundephilps' id='icons'><TiSocialFacebook /></a>
-            <a href='/##' id='icons'><TiSocialInstagram /></a>
-            <a href='/##' id='icons'><TiSocialTwitter /></a>
-            <a href='/##' id='icons'><TiSocialYoutube /></a>
-            <a href='https://github.com/tundephilps' id='icons'><BsGithub /></a>
+            <a href='/##' id='icons'
+            data-aos="slide-left"
+            data-aos-duration="300"
+            data-aos-delay='300'
+            
+            ><TiSocialInstagram /></a>
+            <a href='/##' id='icons'
+            data-aos="slide-left"
+            data-aos-duration="700"
+            data-aos-delay='600'
+            ><TiSocialTwitter /></a>
+            <a href='/##' id='icons'
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay='900'
+            ><TiSocialYoutube /></a>
+            <a href='https://github.com/tundephilps' id='icons'
+            data-aos="slide-left"
+            data-aos-duration="1300"
+            data-aos-delay='1200'
+            ><BsGithub /></a>
             
         </div>
             <p></p>

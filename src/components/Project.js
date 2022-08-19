@@ -7,7 +7,10 @@ const Project = ({ item: { id, date, image, title, Link, tech, sourcecode, descr
     const navigate = useNavigate();
 
   return (
-        <div className='portfolio-item'>
+        <div className='portfolio-item'
+        data-aos='zoom-in'
+        data-aos-delay='300'
+        >
                     <div className='portfolio-item-thumbnail'>
                           <img src={image} alt="port" />
                     </div>

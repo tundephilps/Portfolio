@@ -22,11 +22,16 @@ const About = () => {
     </div>
 <div className='row'>
 <div className='about-img'>
-<div className='img-box'>
+<div className='img-box'
+data-aos='fade-right'
+data-aos-delay='600'
+>
 <img src={tie} alt="suit" />
 </div>
 </div>
-<div className='about-text'>
+<div className='about-text'
+data-aos="flip-left" data-aos-delay="100"
+>
     <p>I am a meticulous Front-End React.js Developer from Nigeria Currently based in Lagos with over 2years of front end experience,
          and a passion for coding, Web Development and a firm believer in client satisfaction coupled with optimal user’s experience.
          Am open to any avaliable remote oppourtunities,
@@ -34,16 +39,46 @@ const About = () => {
     </p>
     <h3>skills</h3>
 <div className='skills'>
-<div className="skill-item">html</div>
-<div className="skill-item">css</div>
-<div className="skill-item">Javascript</div>
-<div className="skill-item">Bootstrap</div>
-<div className="skill-item">Material UI</div>
-<div className="skill-item">React</div>
-<div className="skill-item">Figma</div>
-<div className="skill-item">Github</div>
-<div className="skill-item" style={{color: "red"}}>Firebase</div>
-<div className="skill-item" style={{color: "red"}}>DevOps</div>
+<div className="skill-item"
+ data-aos='fade-left'
+ data-aos-delay='300'
+>html</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='500'
+>css</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='700'
+>Javascript</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='900'
+>Bootstrap</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='1100'
+>Material UI</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='1300'
+>React</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='1500'
+>Figma</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='1700'
+>Github</div>
+<div className="skill-item" style={{color: "red"}}
+data-aos='fade-left'
+data-aos-delay='1900'
+>Firebase</div>
+<div className="skill-item" style={{color: "red"}}
+data-aos='fade-left'
+data-aos-delay='2100'
+>DevOps</div>
 </div>
 <div className='about-tabs'>
     <button type="button" class='tab-item active' data-target="#education">Education</button>

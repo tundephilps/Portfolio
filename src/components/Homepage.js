@@ -20,7 +20,10 @@ const Homepage = () => {
 
         <div className='container'>
 <div className='row align-items-center'>
-<div className='home-text'>
+<div className='home-text'
+data-aos='fade-right'
+data-aos-delay='600'
+>
 <p>Hello, I'm</p>
 <h1>Tunde Akinola Philps</h1>
 <h2>frontend Web developer</h2>
@@ -28,7 +31,10 @@ const Homepage = () => {
 
 <a href onClick={() => {navigate("/Portfolio");}} className='btn'>Portfolio</a>
 </div>
-<div className='home-img'>
+<div className='home-img' 
+data-aos='fade-left'
+data-aos-delay='600'
+>
 <div className='img-box'>
   <img src={suit}  alt="profile" />
 
