@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Popup from './components/Popups/Popup';
 //import Header from './components/Header';
-
+import "./App.css"
 
 //import aos (animate on scroll)
 import Aos from 'aos';

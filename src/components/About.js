@@ -2,6 +2,7 @@ import React from 'react'
 import tie from "./images/tie.jpg"
 import { useNavigate } from 'react-router';
 import Header from './Header';
+//import Tabs  from "flowbite-react"
 
 
 
@@ -58,31 +59,43 @@ data-aos-delay='900'
 <div className="skill-item"
 data-aos='fade-left'
 data-aos-delay='1100'
->Material UI</div>
+>Tailwind CSS</div>
+
 <div className="skill-item"
 data-aos='fade-left'
 data-aos-delay='1300'
->React</div>
+>Material UI</div>
 <div className="skill-item"
 data-aos='fade-left'
 data-aos-delay='1500'
->Figma</div>
+>React</div>
 <div className="skill-item"
 data-aos='fade-left'
 data-aos-delay='1700'
+>Redux</div>
+
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='1900'
+>Figma</div>
+<div className="skill-item"
+data-aos='fade-left'
+data-aos-delay='2100'
 >Github</div>
 <div className="skill-item" style={{color: "red"}}
 data-aos='fade-left'
-data-aos-delay='1900'
+data-aos-delay='2300'
 >Firebase</div>
 <div className="skill-item" style={{color: "red"}}
 data-aos='fade-left'
-data-aos-delay='2100'
+data-aos-delay='2500'
 >DevOps</div>
 </div>
 <div className='about-tabs'>
-    <button type="button" class='tab-item active' data-target="#education">Education</button>
-    <button type="button" class='tab-item' data-target="#experience">Experience</button>
+
+
+    <button type="button" class='tab-item active' data-target="#education">Experience</button>
+    <button type="button" class='tab-item' data-target="#experience">Education</button>
 </div>
 <div className='tab-content' id="education">
 <div className='timeline'>
@@ -106,9 +119,7 @@ data-aos-delay='2100'
     <div className='timeline-item'>
 <span className='date'>Currently</span>
 <h4>Dev Ops Engineering - <span> Lamar Cloud Submitt, Texas USA </span> </h4>
-<p> 
-    Advanced training on Linux Administration, AWS, DevOps and Networking.
-</p>
+<p>Advanced training on Linux Administration, AWS, DevOps and Networking.</p>
     </div>
 
 
@@ -127,9 +138,12 @@ data-aos-delay='2100'
                   them look professional to increase sales and brand optimization.   </p>
         </div>
         <div className='timeline-item'>
-            <span className='date'>2020 - Currently</span>
-            <h4>Full Stack - <span>Open Source</span></h4>
-            <p> Contributed to open source projects on Github and other developer communities </p>
+            <span className='date'>May 2020 - June 2022</span>
+            <h4>FrontEnd Developer - <span>Afroot Design Dublin</span></h4>
+            <p> Designed and implemented web applications along with 3rd-party software integrations as a web team liaison for all Clients projects..</p>
+            <p> Designing Webpages using HTML, CSS, Javascript and React.js for Clients.</p>
+             <p>Converting Figma and Adobe XD Designs and Mockups into Hard Coded Web Pages using React.js</p> 
+            <p> Led development team of developers to create GitHub pages, which allows all new and existing customers to have their repositories hosted.</p>
         </div>
     </div>
 </div>
