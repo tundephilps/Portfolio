@@ -24,8 +24,21 @@ const ProjectData = [
 
     },
     
+
+    {
+     
+        id: "3",
+        date: "January 17 2022",
+        image: "../images/MusicPlayer.png",
+        title: "Redux Music Player",
+        Link: "https://music-player-gamma-blue.vercel.app/",
+        tech: "HTML, CSS, Javascript, React",
+        sourcecode: "https://github.com/tundephilps/Redux-Music-Player",
+        description: "A Music Streaming App Built with Redux, Rapid Api extension and the Shazam Core API for streaming music data and of course tailwind css was used for styling..."
+    },
+
 {    
-    id: "3",
+    id: "4",
     date: "March 28 2021",
     image: "../images/page8.png",
     title: "Educational Website",
@@ -40,7 +53,7 @@ const ProjectData = [
 
     
     {
-        id: "4",
+        id: "5",
         date: "March 7 2021",
         image: "../images/Blog.png",
         title: "Blog Project",
@@ -53,7 +66,7 @@ const ProjectData = [
         },
         
     {
-        id: "5",
+        id: "6",
         date: "Sept 23 2022",
         image: "../images/Chat.png",
         title: "Chat App",
@@ -66,7 +79,7 @@ const ProjectData = [
     
     
     {
-        id: "6",
+        id: "7",
         date: "Oct 13 2022",
         image: "../images/CoreReact.png",
         title: "Core React Projects",
@@ -80,7 +93,7 @@ const ProjectData = [
     },
      
     {
-        id: "7",
+        id: "8",
         date: "Oct 27 2022",
         image: "../images/Redux.png",
         title: "Redux Collection",
@@ -96,7 +109,7 @@ const ProjectData = [
 
     
     {
-        id: "8",
+        id: "9",
         date: "Sept 23 2021",
         image: "../images/page3.png",
         title: "Hotel Website",
@@ -109,7 +122,7 @@ const ProjectData = [
         
     },
     {
-        id: "9",
+        id: "10",
         date: "Aug 21 2022",
         image: "../images/arcade.png",
         title: "Game Store & Arcade",
@@ -123,68 +136,17 @@ const ProjectData = [
     
 
     {
-        id: "10",
-        date: "Feb 23 2021",
-        image: "../images/virtual.png",
-        title: "Virtual Reality",
-        Link: "https://tailwind-vr.vercel.app/",
-        tech: "HTML, CSS, Javascript, React",
-        sourcecode: "https://github.com/tundephilps/TailwindVR",
-        description: "A Virtual reality page using tailwind CSS and implementing Three.js for amazing 3D visual effects, was just trying my hand on tailwind css..",
-    
-          
-    },
-
-    {
         id: "11",
-        date: "Dec 23 2021",
-        image: "../images/verse.png",
-        title: "Web3 page",
-        Link: "https://web3-khaki.vercel.app/",
-        tech: "HTML, Tailwind CSS, Javascript, React",
-        sourcecode: "https://github.com/tundephilps/Web3",
-        description: "My Tailwind css knowledge was perfected with this one... Its a Web3 designed theme page all done with tailwind css and a video with a pause button giving it some nice effects. ",
+        date: "Feb 23 2021",
+        image: "../images/collection.png",
+        title: "Landing Page Collection",
+        Link: "https://landing-pages-collection-bay.vercel.app/",
+        tech: "HTML, CSS, Javascript, React",
+        sourcecode: "https://github.com/tundephilps/Landing-Pages-Collection",
+        description: "A Collection of Landing Pages i made over time for personal projects and freelance gigs...",
     
           
     },
-
-    {
-        id: "12",
-        date: " 23 2021",
-        image: "../images/page6.png",
-        title: "Landing Page 2",
-        Link: "https://single-page-app2-three.vercel.app/",
-        tech: "HTML, CSS, Javascript, React",
-        sourcecode: "https://github.com/tundephilps/SinglePageApp2",
-        description: "A telecom based Theme",
-        
-    },
-   
-    {
-        id: "13",
-        date: "March 7 2021",
-        image: "../images/page2.png",
-        title: "Golf Course Project",
-        Link: "https://black-golf-tundephilps.vercel.app/",
-        tech: "HTML, CSS, Javascript, React",
-        sourcecode: "https://github.com/tundephilps/Black-Golf",
-        description: "A Golf Course themed Web page built for Black Minorities, A Beautiful landing page that took me a lot of time and effort to design...",
-    
-        
-        },
-
-        {
-            id: "14",
-            date: "Dec 23 2021",
-            image: "../images/page4.png",
-            title: "Business Page",
-            Link: "https://single-page-app1-three.vercel.app/",
-            tech: "HTML, CSS, Javascript, React",
-            sourcecode: "https://github.com/tundephilps/MultiPage-App1",
-            description: "Normal Landing Page ",
-        
-              
-        },
     ]
       
     export default ProjectData;
