@@ -121,6 +121,7 @@ const ProjectData = [
       
         
     },
+
     {
         id: "10",
         date: "Aug 21 2022",
@@ -133,11 +134,9 @@ const ProjectData = [
     
           
     },
-    
-
     {
         id: "11",
-        date: "Feb 23 2021",
+        date: "Feb 23 2022",
         image: "../images/collection.png",
         title: "Landing Page Collection",
         Link: "https://landing-pages-collection-bay.vercel.app/",
@@ -147,6 +146,32 @@ const ProjectData = [
     
           
     },
+
+    {
+        id: "12",
+        date: "Dec 8 2022",
+        image: "../images/Portal.png",
+        title: "Job Portal",
+        Link: "https://job-portal-beta.vercel.app/",
+        tech: "HTML, CSS, Material UI, Javascript, React",
+        sourcecode: "https://github.com/tundephilps/Job-Portal",
+        description: "A Job Portal App which displays a list of jobs avaliable and classifed into an array of data and each job posting has its own unique url for application...",
+    
+          
+    },
+    {
+     
+        id: "13",
+        date: "December 8 2022",
+        image: "../images/Ricky.png",
+        title: "Ricky and Morty App",
+        Link: "https://ricky-gules.vercel.app/",
+        tech: "HTML, CSS, Javascript, React",
+        sourcecode: "https://github.com/tundephilps/Ricky-and-Morty-App",
+        description: "An App that makes an API Call and includes a search, filter and pagination"
+    },
+
+   
     ]
       
     export default ProjectData;
