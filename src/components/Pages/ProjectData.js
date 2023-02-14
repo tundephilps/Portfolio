@@ -120,6 +120,18 @@ const ProjectData = [
 
   {
     id: "11",
+    date: "Jan 10 2023",
+    image: "../images/Softwares.png",
+    title: "Softwares, Applications and Clones",
+    Link: "https://apps-and-softwares-tundephilps.vercel.app/",
+    tech: "HTML, CSS, Javascript, React",
+    sourcecode: "https://github.com/tundephilps/SOFTWARES-AND-APPLICATIONS",
+    description:
+      "A Collection of Softwares, Applications and Popular Clones of Websites (Built mainly for tutorial Purposes and Skills Upgrade) And oh..... Enjoy the Music and Sound Effects in the background by clicking the unmute button and hovering over the menu. ",
+  },
+
+  {
+    id: "12",
     date: "Aug 21 2022",
     image: "../images/arcade.png",
     title: "Game Store & Arcade",
@@ -130,7 +142,7 @@ const ProjectData = [
       "A Video game store and Arcade that includes an Ecommerce page for selling game products and items and a game arcade that users can play games like tetris on the web app, all these built with react. Still work in progress 30% complete. ",
   },
   {
-    id: "12",
+    id: "13",
     date: "Feb 23 2022",
     image: "../images/collection.png",
     title: "Landing Page Collection",
@@ -142,7 +154,7 @@ const ProjectData = [
   },
 
   {
-    id: "13",
+    id: "14",
     date: "Dec 8 2022",
     image: "../images/Portal.png",
     title: "Job Portal",
@@ -153,7 +165,7 @@ const ProjectData = [
       "A Job Portal App which displays a list of jobs avaliable and classifed into an array of data and each job posting has its own unique url for application...",
   },
   {
-    id: "14",
+    id: "15",
     date: "December 8 2022",
     image: "../images/Ricky.png",
     title: "Ricky and Morty App",
@@ -161,7 +173,7 @@ const ProjectData = [
     tech: "HTML, CSS, Javascript, React",
     sourcecode: "https://github.com/tundephilps/Ricky-and-Morty-App",
     description:
-      "An App that makes an API Call and includes a search, filter and pagination",
+      "An App that makes an API Call and includes a search, filter and pagination and the Lazy loading feature as well",
   },
 ];
 
